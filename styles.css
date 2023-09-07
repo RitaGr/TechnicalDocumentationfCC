@@ -1,22 +1,80 @@
+body{
+    display: inline;
+    font-family:'Open Sans', Arial, sans-serif;
+}
+
 /* 14. */
 #navbar{
     position: fixed;
     height: 100%;
+    width:250px;
     top: 0;
     text-align: left;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    border-right: 2px solid #5A5A5A;
+
 }
 #navbar a{
     display:block;
+    color: #5A5A5A;
+    text-decoration: none;
+    padding: 8px ;
+    margin-left: 0;
+    border-bottom: 1px solid #000;
+}
+main{
+    margin-left: 250px;
+    padding: 1px 16px;
+    height: 100%;
+}
+.sidebar-header{
+    text-align:center !important;
+    border-bottom: 1px solid #000;
+}
+header{
+    color:#000;
+    font-size: 25px;
+    padding:8px;
+    text-align: left;
+}
+p , li, code{
+    margin: 20px 20px 20px 20px;
+    color:#5A5A5A;
+}
+code{
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+}
+.code-layout{
+    background-color: lightgray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px 5px;
+}
+
+li{
+    padding-left: 40px;
 }
 /* 15. */
+/* Will proceed in the next session to position the navbar on smaller screens at the top
 @media screen and (max-width: 992px) {
-    body {
-      background-color: blue;
+    body{
+        display:block;
     }
   }
   @media screen and (max-width: 600px) {
-    body {
-      background-color: olive;
+    body{
+        display:block;
+    }
+    #navbar{
+        position: fixed;
+
     }
   }
+  */
+
   
