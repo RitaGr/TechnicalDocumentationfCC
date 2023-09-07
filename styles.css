@@ -1,0 +1,22 @@
+/* 14. */
+#navbar{
+    position: fixed;
+    height: 100%;
+    top: 0;
+    text-align: left;
+}
+#navbar a{
+    display:block;
+}
+/* 15. */
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+  }
+  
